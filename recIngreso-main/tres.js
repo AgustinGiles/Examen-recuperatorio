@@ -48,7 +48,7 @@ function mostrar()
 			marca = prompt("Error. Ingrese marca");
 		}
 		precioU = parseInt(prompt("Ingrese el precio por unidad"));
-		while (isNaN(precioXUnidad) || precioXUnidad <= 0) {
+		while (isNaN(precioU) || precioU <= 0) {
 			precioXUnidad = parseInt(prompt("Error. Ingrese el precio por unidad"));
 		}
 		total = precioU * cantidadL;
